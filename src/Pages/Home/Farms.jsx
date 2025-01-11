@@ -4,7 +4,7 @@ import React from "react";
 function Farms() {
   return (
     <>
-      <div className="flex flex-col items-center justify-between mt-6">
+      <div className="flex flex-col items-center justify-between mt-6 z-0">
         <span className="text-red-900 underline underline-offset-4 text-2xl">
           Our Properties
         </span>

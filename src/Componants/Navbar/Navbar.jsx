@@ -6,7 +6,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-100 p-4 shadow-lg shadow-red-400">
+    <nav className="fixed top-0 left-0 w-full bg-gray-100 p-4 shadow-lg shadow-red-400 z-10">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo and Site Name */}
         <div className="flex items-center">
