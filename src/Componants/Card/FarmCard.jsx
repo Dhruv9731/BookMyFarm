@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const FarmCard = ({ imgpath, name, content }) => {
+  const navigate = useNavigate();
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-red-400 overflow-hidden transform hover:scale-110">
       {/* Image */}
@@ -15,7 +17,7 @@ const FarmCard = ({ imgpath, name, content }) => {
 
         {/* Buttons */}
         <div className="mt-4 flex flex-row justify-between items-center">
-          <button className="hidden md:block bg-red-900 text-white mx-5 px-3 py-2 rounded-3xl font-semibold hover:bg-gray-50 hover:text-red-900 border border-red-900">
+          <button onClick={()=>{navigate("/BookNow")}} className="hidden md:block bg-red-900 text-white mx-5 px-3 py-2 rounded-3xl font-semibold hover:bg-gray-50 hover:text-red-900 border border-red-900">
             Book Now
           </button>
           <button className="hidden md:block bg-red-900 text-white mx-5 px-3 py-2 rounded-3xl font-semibold hover:bg-gray-50 hover:text-red-900 border border-red-900">
