@@ -39,7 +39,7 @@ function AboutUs() {
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <div className="flex flex-row items-center">
               <Phone className="w-4 h-5 mr-2" />
-              <Link to="#">Mobile No.</Link>
+              <Link to="#">8511815615 / 9067702502</Link>
             </div>
             <div className="flex flex-row items-center">
               <Mail className="w-4 h-5 mr-2" />
