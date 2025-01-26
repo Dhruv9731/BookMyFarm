@@ -21,7 +21,7 @@ function Farms() {
           <div className="mx-5 my-6">
             <FarmCard
               imgpath={"https://res.cloudinary.com/dep6spxel/image/upload/v1737896615/unity-prasang_qv0xcc.jpg"}
-              name={"Unity Shangar"}
+              name={"Unity One"}
               content={
                 "Unity Shangar offers a picturesque venue for weddings, events, and birthday parties, creating unforgettable memories in a serene setting."
               }
@@ -30,7 +30,7 @@ function Farms() {
           <div className="mx-5 my-6">
             <FarmCard
               imgpath={"https://res.cloudinary.com/dep6spxel/image/upload/v1737896582/ratan_i5z9fr.jpg"}
-              name={"Unity Prasang"}
+              name={"Unity Two"}
               content={
                 "Unity Prasang is a perfect venue for weddings, birthday parties, and baby showers, offering a beautiful, serene setting."
               }
