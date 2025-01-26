@@ -11,7 +11,7 @@ function Farms() {
         <div className="flex flex-row justify-between mx-20 mt-10 mb-6 overflow-hidden">
           <div className="mx-5 my-6">
             <FarmCard
-              imgpath={"./src/assets/FarmPhotos/ratan.jpeg"}
+              imgpath={"https://res.cloudinary.com/dep6spxel/image/upload/v1737896625/unity-shangar_fjkbje.jpg"}
               name={"Ratan Farm"}
               content={
                 "Ratan Farm is a perfect wedding and event destination, offering serene natural beauty, elegant spaces, and unforgettable celebrations."
@@ -20,7 +20,7 @@ function Farms() {
           </div>
           <div className="mx-5 my-6">
             <FarmCard
-              imgpath={"./src/assets/FarmPhotos/unity-shangar.jpeg"}
+              imgpath={"https://res.cloudinary.com/dep6spxel/image/upload/v1737896615/unity-prasang_qv0xcc.jpg"}
               name={"Unity Shangar"}
               content={
                 "Unity Shangar offers a picturesque venue for weddings, events, and birthday parties, creating unforgettable memories in a serene setting."
@@ -29,7 +29,7 @@ function Farms() {
           </div>
           <div className="mx-5 my-6">
             <FarmCard
-              imgpath={"./src/assets/FarmPhotos/unity-prasang.jpeg"}
+              imgpath={"https://res.cloudinary.com/dep6spxel/image/upload/v1737896582/ratan_i5z9fr.jpg"}
               name={"Unity Prasang"}
               content={
                 "Unity Prasang is a perfect venue for weddings, birthday parties, and baby showers, offering a beautiful, serene setting."
